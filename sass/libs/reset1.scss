@@ -1,0 +1,26 @@
+body{
+    font-family: "Open Sans", "Times New Roman", Helvetica, Arial, sans-serif;
+    line-height: 1.1em;
+    color: #222;
+    background-color: #eee;/*#eee*/
+    margin: auto;
+}
+
+h1, h2{
+    font-family: "Grand Hotel", serif;
+}
+h1{
+    font-size: 3rem;
+    line-height: 1.5em;
+}
+h2{
+    font-size: 1.5rem;
+    line-height: 1.5em;
+}
+section{
+    padding: 1rem;
+    overflow: hidden;
+}
+strong{
+    font-weight: bold;
+}
