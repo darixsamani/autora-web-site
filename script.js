@@ -23,13 +23,13 @@ menuBtn.onclick = function(){
 
 function myFunction(x) {
     if (x.matches) { // If media query matches
-        document.body.style.backgroundColor = "yellow";
+        //document.body.style.backgroundColor = "yellow";
         menuBar.style.visibility = "hidden" ;
     } else {
         menuBar.style.visibility = "visible" ;
         menuBar.style.height = "0px";
         //munuBar.style.zIndex = "2";
-        document.body.style.backgroundColor = "pink";
+        //document.body.style.backgroundColor = "pink";
 
         menuBtn.onclick = function()
             {
