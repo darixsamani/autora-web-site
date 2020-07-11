@@ -10,5 +10,3 @@ menuBtn.onClick = function(){
     }
     menuBar.style.display="inline";
 }
-
-

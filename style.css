@@ -440,4 +440,44 @@ ul[class=ul-nav] li a:hover {
   padding: 20px;
 }
 
+.best-choose {
+  display: flex;
+  flex-direction: column;
+  border: 0px solid green;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 870px) {
+  .best-choose {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+.best-choose .best-choose-1 {
+  display: flex;
+  flex-direction: row;
+  border: 0px solid red;
+  max-width: 400px;
+  max-height: 400px;
+  margin: 15px;
+  padding: 10px;
+}
+.best-choose .best-choose-1 i {
+  color: #00BFFF;
+}
+.best-choose .best-choose-1:hover i {
+  color: #0cf145 !important;
+}
+.best-choose .best-choose-1 .best-choose-1-2 {
+  margin-left: 15px;
+  margin-right: 10px;
+}
+.best-choose .best-choose-1 .best-choose-1-2 h4 {
+  margin-bottom: 20px;
+  font-style: normal;
+  font-family: "Open San", "Times New Roman", Times, serif !important;
+  font-weight: normal;
+  font-weight: bold;
+}
+
 /*# sourceMappingURL=style.css.map */

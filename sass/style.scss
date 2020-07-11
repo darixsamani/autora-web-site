@@ -111,7 +111,7 @@ a {
     div {
         margin: 0px ;
         padding: 15px ;
-        border: 1px solid green;
+        border: 0px solid green;
         &:first-child{
             display: none;
             @media #{$large-screen}{
@@ -383,5 +383,50 @@ ul[class="ul-nav"]{
             }
         }
         
+    }
+}
+
+.best-choose{
+    display: flex;
+    flex-direction: column;
+    border: 0px solid green;
+    justify-content: center;
+    align-items: center;
+    @media #{$large-screen}{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .best-choose-1{
+        display: flex;
+        flex-direction: row;
+        border: 0px solid red;
+        max-width: 400px;
+        max-height: 400px;
+        margin: 15px;
+        padding: 10px;
+        i{
+            color: #00BFFF;
+        }
+
+        &:hover{
+            i{
+                color: #0cf145  !important;
+            }
+        }
+
+        .best-choose-1-2{
+            margin-left: 15px;
+            margin-right: 10px;
+            
+            h4{
+                margin-bottom: 20px;
+                font-style: normal;
+                font-family: 'Open San','Times New Roman', Times, serif !important;
+                font-weight: normal;
+                font-weight: bold;
+                
+            }
+        }
     }
 }
