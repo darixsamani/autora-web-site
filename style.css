@@ -232,6 +232,7 @@ ul[class=ul-nav] {
   text-align: center;
   background-color: #e9e9e9;
   border-bottom: 0px solid green;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
 }
 @media screen and (min-width: 870px) {
   ul[class=ul-nav] {
@@ -260,6 +261,10 @@ ul[class=ul-nav] li a:hover {
     border-bottom: 3px solid #e6f14c;
     padding-bottom: 10px;
     color: black;
+    -webkit-transition: border-bottom 0.3s linear;
+    -moz-transition: border-bottom 0.3s linear;
+    -o-transition: border-bottom 0.3s linear;
+    transition: border-bottom 0.3s linear;
   }
 }
 @media screen and (min-width: 870px) {
@@ -277,6 +282,7 @@ ul[class=ul-nav] li a:hover {
 }
 .main-1-1 div h2 {
   font-size: 1.5rem;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
   font-weight: bolder;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-style: normal;
@@ -359,6 +365,7 @@ ul[class=ul-nav] li a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   color: green;
+  opacity: 0.95;
   border: 0px solid green;
 }
 @media screen and (min-width: 870px) {
@@ -374,6 +381,9 @@ ul[class=ul-nav] li a:hover {
   flex-direction: column;
   align-items: stretch;
   margin-left: 10px;
+}
+.welcome-autora h2 {
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
 }
 @media screen and (min-width: 870px) {
   .welcome-autora {
@@ -415,11 +425,27 @@ ul[class=ul-nav] li a:hover {
   height: 250px;
   border: 0px solid green;
   background-image: url(img/image-box-1-370x250.jpg);
+  /*
+  -webkit-transition: all .3s linear;
+  -moz-transition: all .3s linear;
+  -o-transition: all .3s linear;
+  transition: all .3s linear;
+  */
+  -webkit-transition: -webkit-transform 0.2s ease-in-out;
+  -moz-transition: -moz-transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
 }
 .image-best-service .image-best-service-1 div:first-child:hover {
-  opacity: 25%;
+  opacity: 0.5;
   visibility: visible;
-  background-color: #353131;
+  background-color: #353131 rotate(-10deg) translate(-20px, -40px);
+  -webkit-transform: scale(1.25) rotate(-10deg) translate(-20px, -40px);
+  -moz-transform: scale(1.25) rotate(-10deg) translate(-20px, -40px);
+  -o-transform: scale(1.25) rotate(-10deg) translate(-20px, -40px);
+  transform: scale(1.25) rotate(-10deg) translate(-20px, -40px);
+  -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
 }
 .image-best-service .image-best-service-1 .image-best-service-2-1 {
   background-image: url(img/image-box-2-370x250.jpg) !important;
