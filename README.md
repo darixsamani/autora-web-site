@@ -1,2 +1,2 @@
 # autora-web-site
-this is my firts repository to learn git and githud
+this is my first repository to learn git and githud
